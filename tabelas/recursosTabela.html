@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head> 
+        <title> Recursos de Tabela </title>
+        <meta charset="utf-8">
+    </head>
+
+    <body>
+
+        <!-- dentro dos atributos da tbela podemos definir largura pode 
+         ser colocada em pixel ou porcentagem -->
+        <table border="2" width="100%">
+
+             <tr>
+                <th> Código </th>
+                <th> Produto </th>
+                <th> preço </th>
+            </tr>
+
+            <tr>
+                <td> 001 </td>
+                <td> Notebook </td>
+                <td> R$ 2.500,99 </td>
+            </tr>
+
+            <tr>
+                <td> 002 </td>
+                <td> 
+                   <!-- <a href=""> Clique</a>
+                    <img src="/imagens/ferrari.jpg" width="200%"> -->
+                    Tablet
+
+                </td>
+                <td> R$ 990,99 </td>
+            </tr>
+
+            <tr>
+                <td rowspan="2"> Desconto </td>
+                <td colspan="2"> cupom1 -R$ 10</td>
+                <!-- Rowspan ela ocupa duas linhas de cima para baixo-->
+                <!-- colspan é um atributo que permite espandir uma 
+                 linha para um tamnaho alem do original agrupando duas colunas, significa extenção-->
+            </tr>
+
+            <tr>
+                <td colspan="2"> cupom1 -R$ 10</td>
+            </tr>
+
+            <tr>
+                <td> Total </td>
+                <td colspan="2"> R$ 3478, 98 </td>
+            </tr>
+
+
+        </table>
+        
+    </body>
+
+</html>
